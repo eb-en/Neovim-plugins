@@ -1,9 +1,15 @@
 return {
   "folke/snacks.nvim",
   opts = {
-    terminal = {
-      win = {
-        position = "float",
+    picker = {
+      sources = {
+        explorer = {
+          auto_close = true,
+          layout = {
+            preset = "default",
+            preview = false, 
+          },
+        },
       },
     },
   },
